@@ -1,1 +1,9 @@
 c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\bin\Debug\SisLeyMkIII.exe.config
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\bin\Debug\SisLeyMkIII.exe
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\bin\Debug\SisLeyMkIII.pdb
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.csprojResolveAssemblyReference.cache
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.Form1.resources
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.Properties.Resources.resources
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.csproj.GenerateResource.Cache
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.exe
+c:\users\luis\documents\visual studio 2015\Projects\SisLeyMkIII\SisLeyMkIII\obj\Debug\SisLeyMkIII.pdb
