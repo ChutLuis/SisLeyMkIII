@@ -20,11 +20,23 @@ namespace SisLeyMkIII
 
         private void usuario_crear_Click(object sender, EventArgs e)
         {
-            ArrayList Lista = new ArrayList();
-            ListaGenerica<String> prueba1 = new ListaGenerica<string>(5);
-            Boolean p1 =prueba1.isEmpty();
-            prueba1.add(1, "MIerda");
-            MessageBox.Show(prueba1.get(1));
+            ListaGenerica<int> n1 = new ListaGenerica<int>();
+            n1.insertarNodo(1);
+            n1.desplegarLista();
+            //n1.insertarNodo(2);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+            //n1.insertarNodo(3);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+            //n1.insertarNodo(4);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+            //n1.insertarNodo(5);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+            //n1.insertarNodo(6);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+            //n1.insertarNodo(7);
+            //MessageBox.Show(n1.desplegarLista().ToString());
+
+
         }
 
         private void usuario_modificar_Click(object sender, EventArgs e)

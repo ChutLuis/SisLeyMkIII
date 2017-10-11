@@ -9,55 +9,35 @@ namespace SisLeyMkIII
 {
     public class ListaGenerica<E>
     {
-        
-        private int size = 0;
-        private E[] data;
-         
+        private Nodo<E> Primero = new Nodo<E>();
+        private Nodo<E> Ultimo = new Nodo<E>();
+
         public ListaGenerica()
         {
-
+            Primero = null;
+            Ultimo = null;
         }
-        public ListaGenerica(int size)
+        public void insertarNodo(E varX)
         {
-            this.size = size;
-
-        }
-        public void sizeE()
-        {
-            data = (new object[size]);
-        }
-        public Boolean isEmpty()
-        {
-            return size == 0;
-        }
-        public E get(int i)
-        {
-            return data[i];
-        }
-        public void set(int i, E e)
-        {
-            data[i] = e;
-        }
-        public void add(int i, E e)
-        {
-            if (size == data.Length) // not enough capacity
+            Nodo<E> nuevo = new Nodo<E>();
+            nuevo.Dato = varX;
+            if (Primero==null)
             {
-                MessageBox.Show("Array is full");
+                Primero = nuevo;
+                Primero.Siguiente1 = null;
+                Ultimo = nuevo;
             }
-            for (int k = size - 1; k >= i; k--) // start by shifting rightmost
-             data[k + 1] = data[k];
+            else
+            {
+                Ultimo.Siguiente1 = nuevo;
+                nuevo.Siguiente1 = null;
+                Ultimo = nuevo;
+            }
 
-            data[i] = e; // ready to place the new element size++;
         }
-        public E remove(int i)
+        public void desplegarLista()
         {
-            E temp = data[i];
-            for (int k = i; k < size - 1; k++)
-                data[k] = data[k + 1];
-            data[size - 1] = default(E);
-            size--;
-            return temp;
+            
         }
-
     }
 }
